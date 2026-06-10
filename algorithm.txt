@@ -1,0 +1,31 @@
+variables:
+let character = c
+let length = 0
+let words = 1
+let vowels = 0
+ 
+
+ input : i love mangoes
+
+ while c <> "."
+  
+  begin if
+  if c = '' then;
+  length = length+ 1
+  words = words+ 1
+
+   If C = 'a' Or C = 'e' Or C = 'i' Or C = 'o' Or C = 'u' then;
+   vowels = vowels+1
+
+   end if 
+
+   read c
+
+   end while
+    
+
+    show ("length")
+   show ("words")
+   show ("vowels")
+
+
